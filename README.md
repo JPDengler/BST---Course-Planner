@@ -1,25 +1,23 @@
-# Course Planner
+# Reflection on Course Planner Project
 
-## Description
+## Problem Statement
 
-The Course Planner program is designed to help users manage and retrieve information about courses. It uses a binary search tree (BST) data structure to efficiently store and retrieve course data, including course numbers, titles, and prerequisites.
+In the projects for this course, I aimed to create a Course Planner program to manage and retrieve information about courses efficiently. The main challenge was to design a system that could handle course data, including course numbers, titles, and prerequisites, and provide users with the ability to search, display, and organize this information effectively.
 
-## Features
+## Approach and Importance of Data Structures
 
-- Load course data from a file into the binary search tree.
-- Print a list of courses in alphanumeric order.
-- Search for a specific course by its course number and display its information, including prerequisites.
+To address this problem, I approached it by leveraging data structures, specifically a binary search tree (BST). Data structures are vital in software development as they provide a systematic way to organize and store data, enabling efficient retrieval and manipulation. In this project, I utilized a BST to enable rapid search, sorting, and traversal of the course data. Understanding data structures is crucial because they form the foundation of efficient algorithms and optimized software systems.
 
-## Usage
+## Overcoming Roadblocks
 
-1. **Load Data Structure:** Load course data from a file into the binary search tree.
-2. **Print Course List:** Display a sample schedule by printing the list of courses in alphanumeric order.
-3. **Print Course:** Search for a specific course by its course number and display its detailed information, including prerequisites.
-9. **Exit:** Terminate the program.
+Throughout the project, I encountered challenges in parsing course data from files, managing memory efficiently, and ensuring accurate traversal of the BST. To overcome these roadblocks, I made use of C++'s standard libraries, carefully managed memory allocation and deallocation, and rigorously tested the program with various inputs. Additionally, I sought guidance from online resources and debugging techniques to pinpoint and resolve issues.
 
-## Getting Started
+## Evolution of Software Design
 
-To run the Course Planner program on your local machine, follow these steps:
+Working on this project significantly expanded my approach to designing software. I learned the importance of modularization, where breaking down the code into smaller, well-defined functions enhances readability and maintainability. Separating tasks like file handling, data parsing, and UI interaction into distinct functions improved code organization and debugging. This project taught me to think critically about program structure, making it more modular, flexible, and easier to extend in the future.
 
-1. Clone this repository to your local machine.
-2. Compile the program using a C++ compiler (e.g., g++):
+## Improving Maintainability, Readability, and Adaptability
+
+The course planner project has evolved my programming practices by emphasizing the significance of maintainability, readability, and adaptability. Through the iterative development process, I realized that writing clear and concise code not only makes it easier for others to understand but also simplifies future updates and modifications. Implementing meaningful function and variable names, along with comments, promotes code comprehension. Moreover, by following best practices like encapsulation and separation of concerns, I've built a more adaptable codebase that can accommodate changes without causing cascading effects.
+
+In conclusion, the Course Planner project provided a practical platform to apply data structures, enhance software design skills, and learn the value of maintainable and adaptable code. This experience not only solidified my understanding of programming concepts but also equipped me with essential techniques for crafting efficient, readable, and resilient software solutions.
