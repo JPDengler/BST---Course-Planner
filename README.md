@@ -1,7 +1,5 @@
 # Reflection on Course Planner Project
 
-## Problem Statement
-
 In the projects for this course, I aimed to create a Course Planner program to manage and retrieve information about courses efficiently. The main challenge was to design a system that could handle course data, including course numbers, titles, and prerequisites, and provide users with the ability to search, display, and organize this information effectively.
 
 ## Approach and Importance of Data Structures
